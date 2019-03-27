@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-<title>Rock Paper Scizzors Game</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
-<script src="./assets/javascript/rps-multiplayer.js"></script>
+    <title>Rock Paper Scizzors Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="./assets/javascript/rps-multiplayer.js"></script>
 </head>
 
 <body>
-<!-- button for rock, id rock-->
-<!-- button for paper, id paper -->
-<!-- button for scizzors, id scizzors -->
-<!-- display user choice as image -->
 
-<!-- after you choose your choice, display opponent choice as image-->
-<!-- display text that reveals winner -->
+    <div id="login"></div>
+    <div id="status"></div>
+    <br>
+    <div id="login2"></div>
+    <div id="status2"></div>
+    <br>
+    <div class="row">
+        <div class="col" id="player1Name">
+            <h1>Display Player 1 Name</h1>
+        </div>
+        <div class="col">
+            <h1>Battle Area</h1>
+        </div>
+        <div class="col" id="player2Name">
+            <h1>Display Player 2 Name</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" id="playerOneChoices">Player One Choices</div>
+        <div class="col" id="winner">Result</div>
+        <div class="col" id="playerTwoChoices">Player Two Choices</div>
+    </div>
+    <div class="row">
+        <div class="col">Player One Scoreboard</div>
+        <div class="col">Probably Empty</div>
+        <div class="col">Player Two Scoreboard</div>
+    </div>
 
-<!-- display wins -->
-<!-- display losses -->
-<!-- display ties -->
 
-<!-- input field for chat -->
-<!-- submit button for chat -->
-<!-- display field for chat -->
+    <!-- input field for chat -->
+    <!-- submit button for chat -->
+    <!-- display field for chat -->
 
 </body>
 
